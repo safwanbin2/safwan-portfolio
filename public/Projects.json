@@ -1,0 +1,78 @@
+[
+    {
+        "_id": 1,
+        "title": "justBuy",
+        "motto": "Buy/Sell your old phones",
+        "img": "../../Assets/ss.png",
+        "features": [
+            "You can do this and that and those",
+            "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now"
+        ],
+        "stack": [
+            "React",
+            "Node Js",
+            "Express Js",
+            "Mongo db",
+            "Firebase",
+            "Tailwind"
+        ]
+    },
+    {
+        "_id": 2,
+        "title": "justBuy",
+        "motto": "Buy/Sell your old phones",
+        "img": "../../Assets/ss.png",
+        "features": [
+            "You can do this and that and those",
+            "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now"
+        ],
+        "stack": [
+            "React",
+            "Node Js",
+            "Express Js",
+            "Mongo db",
+            "Firebase",
+            "Tailwind"
+        ]
+    },
+    {
+        "_id": 3,
+        "title": "justBuy",
+        "motto": "Buy/Sell your old phones",
+        "img": "../../Assets/ss.png",
+        "features": [
+            "You can do this and that and those",
+            "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now"
+        ],
+        "stack": [
+            "React",
+            "Node Js",
+            "Express Js",
+            "Mongo db",
+            "Firebase",
+            "Tailwind"
+        ]
+    },
+    {
+        "_id": 4,
+        "title": "justBuy",
+        "motto": "Buy/Sell your old phones",
+        "img": "../../Assets/ss.png",
+        "features": [
+            "You can do this and that and those",
+            "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now"
+        ],
+        "stack": [
+            "React",
+            "Node Js",
+            "Express Js",
+            "Mongo db",
+            "Firebase",
+            "Tailwind"
+        ]
+    }
+]
