@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/skills',
-                element: <Skills></Skills>
+                element: <Skills></Skills>,
             }
         ]
     }

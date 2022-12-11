@@ -3,7 +3,7 @@ import p from '../../Assets/p.png';
 import './Project.css';
 
 const Project = ({ project }) => {
-    const { img, title, stack } = project;
+    const { title, stack } = project;
     return (
         <div className='project relative overflow-hidden'>
             <img className='rounded-lg' src={p} alt="" />

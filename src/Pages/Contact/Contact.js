@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
     const form = useRef();
@@ -10,8 +11,10 @@ const Contact = () => {
         emailjs.sendForm('service_sqoklio', 'template_yd74k64', form.current, 'utINKob5q-XTIPNLM')
             .then((result) => {
                 console.log(result.text);
+                toast.success('Message sent, I will get back to you in short')
             }, (error) => {
                 console.log(error.text);
+                toast.error('could not send email')
             });
     };
 
@@ -21,15 +24,15 @@ const Contact = () => {
             <form className='flex gap-2 flex-col' ref={form} onSubmit={sendEmail}>
                 <div className=''>
                     <label className='mb-4'>Name: </label>
-                    <input className='w-full h-10 bg-[#171F26] rounded-lg' type="text" name="user_name" />
+                    <input className='w-full h-10 bg-[#171F26] rounded-lg p-2' type="text" name="user_name" />
                 </div>
                 <div className=''>
                     <label className='mb-4'>Email: </label>
-                    <input className='w-full h-10 bg-[#171F26] rounded-lg' type="email" name="user_email" />
+                    <input className='w-full h-10 bg-[#171F26] rounded-lg p-2' type="email" name="user_email" />
                 </div>
                 <div className=''>
                     <label className='mb-4'>Message: </label>
-                    <textarea className='w-full h-20 bg-[#171F26] rounded-lg' name="message" />
+                    <textarea className='w-full h-20 bg-[#171F26] rounded-lg p-2' name="message" />
                 </div>
                 <div className='text-center'>
                     <input className='w-6/12 btn hover:bg-[#171F26] bg-[#FFE071] mt-3 text-black tracking-wider' type="submit" value="Send" />
