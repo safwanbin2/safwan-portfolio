@@ -1,19 +1,19 @@
 import React from 'react';
-import p from '../../Assets/p.png';
+import { Link } from 'react-router-dom';
 import './Project.css';
 
 const Project = ({ project }) => {
-    const { title, stack } = project;
+    const { title, stack, banner, _id } = project;
     return (
-        <div className='project relative overflow-hidden'>
-            <img className='rounded-lg' src={p} alt="" />
+        <Link to={`/l2/projects/${_id}`} className='project relative overflow-hidden transition-all'>
+            <img className='rounded-lg' src={banner} alt="" />
             <div className='pro absolute hidden'>
-                <h3 className='text-2xl font-semibold tracking-wider mt-4 ml-8'>{title}</h3>
-                <div className='text-end mt-10 mr-4'>
-                    {stack.map(s => <p className='btn btn-xs bg-[#FFE071] m-1 text-black'>{s}</p>)}
+                <h3 className='text-2xl font-bold tracking-wider text-black'>{title}</h3>
+                <div className=''>
+                    {stack.map(s => <p className='btn btn-xs mr-1 mt-1'>{s}</p>)}
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

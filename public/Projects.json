@@ -3,10 +3,17 @@
         "_id": 1,
         "title": "justBuy",
         "motto": "Buy/Sell your old phones",
-        "img": "../../Assets/ss.png",
+        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "images": [
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/pypvzGg/login.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
+        ],
         "features": [
             "You can do this and that and those",
             "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
             "this is a website where you are not welcome. just placeholder so do not mind for now"
         ],
         "stack": [
@@ -22,10 +29,17 @@
         "_id": 2,
         "title": "justBuy",
         "motto": "Buy/Sell your old phones",
-        "img": "../../Assets/ss.png",
+        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "images": [
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
+        ],
         "features": [
             "You can do this and that and those",
             "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
             "this is a website where you are not welcome. just placeholder so do not mind for now"
         ],
         "stack": [
@@ -41,10 +55,17 @@
         "_id": 3,
         "title": "justBuy",
         "motto": "Buy/Sell your old phones",
-        "img": "../../Assets/ss.png",
+        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "images": [
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
+        ],
         "features": [
             "You can do this and that and those",
             "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
             "this is a website where you are not welcome. just placeholder so do not mind for now"
         ],
         "stack": [
@@ -60,10 +81,17 @@
         "_id": 4,
         "title": "justBuy",
         "motto": "Buy/Sell your old phones",
-        "img": "../../Assets/ss.png",
+        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "images": [
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
+            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
+        ],
         "features": [
             "You can do this and that and those",
             "we sell online products that are used but not worn out",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
+            "this is a website where you are not welcome. just placeholder so do not mind for now",
             "this is a website where you are not welcome. just placeholder so do not mind for now"
         ],
         "stack": [

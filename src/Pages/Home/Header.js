@@ -1,6 +1,8 @@
 import React from 'react';
 import safwan from '../../Assets/safwan.png';
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import { ImBlog } from 'react-icons/im';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -10,7 +12,7 @@ const Header = () => {
             </div>
             <div className=''>
                 <h3 className='font-medium text-4xl text-white tracking-widest my-4'>Safwan Bin Ridwan</h3>
-                <h5 className='font-medium tracking-widest my-4'>Web Developer</h5>
+                <h5 className='font-medium tracking-widest my-4'>Web Developer | <Link to='/l2/blog' className='text-[#FFE071]'>Blog <ImBlog className='inline'/></Link></h5>
                 <div className='flex justify-between items-center w-32 my-4'>
                     <a href="/">
                         <BsGithub />
