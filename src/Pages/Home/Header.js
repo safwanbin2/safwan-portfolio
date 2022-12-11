@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className='grid h-[250px] justify-between items-center my-3 header'>
             <div className='bg-[#FFE071] overflow-hidden w-[200px] h-[200px] mx-auto' style={{borderRadius: "50%", border: "6px solid white"}}>
-                <img className='-rotate-45' src={safwan} alt="" />
+                <img className='-rotate-12' src={safwan} alt="" />
             </div>
             <div className='text-center lg:text-start'>
                 <h3 className='font-medium text-4xl text-white tracking-widest my-4'>Safwan Bin Ridwan</h3>
