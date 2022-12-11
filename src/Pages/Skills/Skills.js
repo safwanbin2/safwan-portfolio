@@ -14,7 +14,7 @@ const Skills = () => {
         "Firebase",
     ]
     return (
-        <div class=" mt-10 flex flex-row justify-center items-start flex-wrap min-w-full">
+        <div class=" pt-10 flex flex-row justify-center items-start flex-wrap min-w-full">
             <div class="rounded-full p-2 m-1 bg-[#FFE071] text-black  w-24 h-24 flex items-center justify-center text-xl font-bold"> HTML </div>
             <div class="rounded-full p-2 m-1 bg-[#171F26] text-[#FFE071]  w-40 h-40 flex items-center justify-center text-xl font-bold"> React </div>
             <div class="rounded-full p-2 m-1 bg-[#171F26] text-[#FFE071]  w-32 h-32 flex items-center justify-center text-xl font-bold"> Firebase </div>
