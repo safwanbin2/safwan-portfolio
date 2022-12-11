@@ -4,11 +4,11 @@ import { MdArrowBack } from 'react-icons/md';
 
 const ProjectDetails = () => {
     const project = useLoaderData();
-    const { banner, images, title, motto, stack, features } = project[0];
+    const { banner, images, title, motto, stack, features, github, live } = project[0];
     return (
         <div className='min-h-screen'>
             <Link to='/' className='text-2xl text-[#FFE071] p-3 inline-block rounded-[50%] hover:bg-[#ffe0716c] bg-[#171F26]'>
-                <MdArrowBack/>
+                <MdArrowBack />
             </Link>
             <div>
                 <div className='grid gap-2' style={{ gridTemplateColumns: "1fr" }}>
@@ -19,6 +19,9 @@ const ProjectDetails = () => {
                     </div>
                 </div>
                 <h3 className='py-5 text-2xl font-semibold tracking-wider'>{title} - {motto} :</h3>
+                <div className='mb-4 mt-2 font-semibold text-[#FFE071] tracking-widest cursor-pointer'>
+                    <a rel="noreferrer" target='_blank' href={github} >Github</a> | <a rel="noreferrer" target='_blank' href={live}>Live</a>
+                </div>
                 <div>
                     <h2 className='text-xl'>Features : </h2>
                     <ul className="list-disc ">
@@ -28,7 +31,7 @@ const ProjectDetails = () => {
                 <div>
                     <h2 className='text-xl py-5'>Tech stack : </h2>
                     <div>
-                        {stack.map((s, i)=> <h3 key={i} className="px-6 py-3 bg-[#171F26] inline-block mx-2 rounded-full">{s}</h3>)}
+                        {stack.map((s, i) => <h3 key={i} className="px-6 py-3 bg-[#171F26] inline-block m-2 rounded-full">{s}</h3>)}
                     </div>
                 </div>
             </div>

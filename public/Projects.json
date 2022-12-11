@@ -4,17 +4,18 @@
         "title": "justBuy",
         "motto": "Buy/Sell your old phones",
         "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "github": "https://github.com/safwanbin2/justBuy-client",
+        "live": "https://justbuy-834e5.web.app/",
         "images": [
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
             "https://i.ibb.co/pypvzGg/login.png",
             "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
         ],
         "features": [
-            "You can do this and that and those",
-            "we sell online products that are used but not worn out",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now"
+            "implemented three (buyer, seller, admin) role",
+            "buyer can buy and add to wishlist the item they want and pay through stripe",
+            "Sellers can add seven types of branded phones and their details with image and advertise and recieve payment through stripe and can even delete their own items",
+            "Admin can manage all the buyers and sellers .",
+            "all of the data are being stored at mongo db"
         ],
         "stack": [
             "React",
@@ -27,72 +28,50 @@
     },
     {
         "_id": 2,
-        "title": "justBuy",
-        "motto": "Buy/Sell your old phones",
-        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "title": "eLearning",
+        "motto": "Invest on knowledge",
+        "banner": "https://i.ibb.co/9WtN4kt/elearning.png",
+        "github": "https://github.com/safwanbin2/e-Learning-client",
+        "live": "https://elearning-de4cb.web.app/",
         "images": [
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
+            "https://i.ibb.co/GdgRGMk/elearningcourse.png",
+            "https://i.ibb.co/4TxFTqF/elearninglogin.png"
         ],
         "features": [
-            "You can do this and that and those",
-            "we sell online products that are used but not worn out",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now"
+            "functional login",
+            "functional register",
+            "toggle dark/light",
+            "private route",
+            "dynamic routing",
+            "responsive"
         ],
         "stack": [
             "React",
-            "Node Js",
-            "Express Js",
-            "Mongo db",
             "Firebase",
-            "Tailwind"
+            "Tailwind",
+            "Daisy UI",
+            "React-pdf"
         ]
     },
     {
         "_id": 3,
-        "title": "justBuy",
-        "motto": "Buy/Sell your old phones",
-        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
+        "title": "eKitchen",
+        "motto": "A cloud based kithen",
+        "banner": "https://i.ibb.co/7NQDzT9/ekitchenbanner.png",
+        "github": "https://github.com/safwanbin2/e-Kitchen-client",
+        "live": "https://ekitchen-caa37.web.app/",
         "images": [
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
+            "https://i.ibb.co/R3ByCZw/ekitchendeliver.png",
+            "https://i.ibb.co/yRHf1CH/addreview-js.png"
         ],
         "features": [
-            "You can do this and that and those",
-            "we sell online products that are used but not worn out",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now"
-        ],
-        "stack": [
-            "React",
-            "Node Js",
-            "Express Js",
-            "Mongo db",
-            "Firebase",
-            "Tailwind"
-        ]
-    },
-    {
-        "_id": 4,
-        "title": "justBuy",
-        "motto": "Buy/Sell your old phones",
-        "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
-        "images": [
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png",
-            "https://i.ibb.co/Yjzk4CZ/just-Buy-Image.png"
-        ],
-        "features": [
-            "You can do this and that and those",
-            "we sell online products that are used but not worn out",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now",
-            "this is a website where you are not welcome. just placeholder so do not mind for now"
+            "Toggle light/dark theme",
+            "Can login/register",
+            "Secuered request by jwt",
+            "post services",
+            "post review",
+            "edit/delete review",
+            "responsive website"
         ],
         "stack": [
             "React",

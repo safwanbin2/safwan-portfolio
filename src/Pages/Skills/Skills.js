@@ -1,18 +1,18 @@
 import React from 'react';
 
 const Skills = () => {
-    const skills = [
-        "HTML-5",
-        "CSS-3",
-        "Bootstrap",
-        "Tailwind",
-        "Javascript",
-        "React Js",
-        "Node Js",
-        "Express Js",
-        "Mongo DB",
-        "Firebase",
-    ]
+    // const skills = [
+    //     "HTML-5",
+    //     "CSS-3",
+    //     "Bootstrap",
+    //     "Tailwind",
+    //     "Javascript",
+    //     "React Js",
+    //     "Node Js",
+    //     "Express Js",
+    //     "Mongo DB",
+    //     "Firebase",
+    // ]
     return (
         <div class=" pt-10 flex flex-row justify-center items-start flex-wrap min-w-full">
             <div class="rounded-full p-2 m-1 bg-[#FFE071] text-black  w-24 h-24 flex items-center justify-center text-xl font-bold"> HTML </div>

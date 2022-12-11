@@ -11,6 +11,7 @@ const Contact = () => {
         emailjs.sendForm('service_sqoklio', 'template_yd74k64', form.current, 'utINKob5q-XTIPNLM')
             .then((result) => {
                 console.log(result.text);
+                e.target.reset();
                 toast.success('Message sent, I will get back to you in short')
             }, (error) => {
                 console.log(error.text);

@@ -1,0 +1,9 @@
+.header {
+    grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+}

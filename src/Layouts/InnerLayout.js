@@ -5,7 +5,7 @@ import Navbar from '../Pages/Shared/Navbar';
 
 const InnerLayout = () => {
     return (
-        <div className='w-[750px] mx-auto'> 
+        <div className='w-11/12 lg:w-[750px] mx-auto'> 
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

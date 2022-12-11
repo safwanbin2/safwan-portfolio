@@ -10,7 +10,7 @@ const Projects = () => {
     }, [])
     console.log(projects)
     return (
-        <div className='grid grid-cols-2 gap-5 py-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 py-10'>
             {
                 projects && projects.map(project => <Project
                     key={project._id}
