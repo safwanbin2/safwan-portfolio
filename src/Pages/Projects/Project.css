@@ -1,5 +1,5 @@
-.project{
-    transition: 1s all;
+.pro{
+    transition: 1s all ease;
 }
 .project:hover .pro{
     display: flex;
@@ -9,6 +9,7 @@
     left: 0;
     top: 0;
     height: 100%;
+    width: 100%;
     border-radius: .5rem;
     background-color: #ffe071be;
 }

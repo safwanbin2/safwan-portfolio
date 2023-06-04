@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const BLog = () => {
     return (
         <div className='min-h-screen'>
-            <Link to='/' className='text-2xl text-[#FFE071] p-3 inline-block rounded-[50%] hover:bg-[#ffe0716c] bg-[#171F26]'>
+            <Link to='/' className='text-2xl text-primary p-3 inline-block rounded-[50%] hover:bg-[#ffe0716c] bg-secondary'>
                 <MdArrowBack/>
             </Link>
           <h2>Coming soon...</h2>

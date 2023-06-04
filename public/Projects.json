@@ -1,6 +1,38 @@
 [
     {
         "_id": 1,
+        "title": "rateMovie",
+        "motton": "A minified version of IMDB - rating",
+        "banner": "https://i.ibb.co/yVkZ2B0/Screenshot-2023-05-29-162109.png",
+        "github": "https://github.com/safwanbin2/rate-movie-client",
+        "live": "https://rate-movie-d57fd.web.app/",
+        "images": [
+            "https://i.ibb.co/ckJ2t4L/Screenshot-2023-05-29-165129.png",
+            "https://i.ibb.co/QfGPknC/Screenshot-2023-05-29-165151.png"
+        ],
+        "features": [
+            "Users can create two types of account. those are eaither fan or admin",
+            "fans can search for movies and filter their search by their category & get to know details about the movies they click",
+            "users can add review/comment to any of the movies with stars as long as they are logged in.",
+            "Users can also like and unlike reiews given by others users",
+            "fans can send message or text to admin from the contact page",
+            "admins can see the message sent through contact page and reply with an auto message and the specific fan will get notification of the reply",
+            "admins can manage other admin and fans from admin dashboard",
+            "admins can also manage, visit or delete any movies from admin dashboard",
+            "Admins can add new movie with all the information needed for a movie",
+            "Top-50 movies page has a table of top stared movies."
+        ],
+        "stack": [
+            "React Js",
+            "Node Js",
+            "Express Js",
+            "Mongo db",
+            "Firebase",
+            "Tailwind"
+        ]
+    },
+    {
+        "_id": 2,
         "title": "justBuy",
         "motto": "Buy/Sell your old phones",
         "banner": "https://i.ibb.co/N7bLcDN/justBuy.png",
@@ -27,7 +59,7 @@
         ]
     },
     {
-        "_id": 2,
+        "_id": 3,
         "title": "eLearning",
         "motto": "Invest on knowledge",
         "banner": "https://i.ibb.co/9WtN4kt/elearning.png",
@@ -54,7 +86,7 @@
         ]
     },
     {
-        "_id": 3,
+        "_id": 4,
         "title": "eKitchen",
         "motto": "A cloud based kithen",
         "banner": "https://i.ibb.co/7NQDzT9/ekitchenbanner.png",
